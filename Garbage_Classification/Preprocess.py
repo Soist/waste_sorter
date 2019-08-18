@@ -9,6 +9,7 @@ while True:
     cv2.imshow("Original", img_inv)
 
     gray_img = cv2.cvtColor(img_inv, cv2.COLOR_BGR2GRAY)
+
     res, thresh = cv2.threshold(gray_img, 90, 255, cv2.THRESH_BINARY)
     cv2.imshow("Threshold", thresh)
 
