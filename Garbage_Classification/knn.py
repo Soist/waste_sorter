@@ -3,6 +3,28 @@ import cv2
 
 
 
+def image_descriptor(descriptor, image_set):
+
+        #Use the specified descriptor to generate n-dimensional vectors for m images
+       #:param descriptor: the descriptor used to describe images
+       #:param image_set: the preprocessed the image_set to be described
+       #:return: a m x n matrix representing m images by n-dimensional vectors
+
+    m = len(image_set)
+    training_data = np.zeros((m, 7))
+
+    count = 0
+    for image in image_set:
+        img = cv2.imread(image)
+        img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        hu = cv2.HuMoments(cv2.moments(img_gray)).flatten()
+        training_data[count,:] = hu
+        count = count + 1
+
+        # TODO: using a descriptor to turn the image_set into a m x n matrix
+    return training_data
+
+
 def default_progress_fn(i, total):
     pass
 
@@ -66,6 +88,11 @@ class KNN:
 
         return YPred
 
-if __name__ == "_main_":
-    orb = cv2.ORB_create()
+training_data = np.zeros((1, 7))
+img = cv2.imread("test/cardboard1.jpg")
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+hu = cv2.HuMoments(cv2.moments(img_gray)).flatten()
+training_data[0,:] = hu
+print(training_data)
+
 
