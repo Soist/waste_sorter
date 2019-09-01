@@ -1,28 +1,6 @@
 import numpy as np
 import cv2
-
-
-
-def image_descriptor(descriptor, image_set):
-
-        #Use the specified descriptor to generate n-dimensional vectors for m images
-       #:param descriptor: the descriptor used to describe images
-       #:param image_set: the preprocessed the image_set to be described
-       #:return: a m x n matrix representing m images by n-dimensional vectors
-
-    m = len(image_set)
-    training_data = np.zeros((m, 7))
-
-    count = 0
-    for image in image_set:
-        img = cv2.imread(image)
-        img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        hu = cv2.HuMoments(cv2.moments(img_gray)).flatten()
-        training_data[count,:] = hu
-        count = count + 1
-
-        # TODO: using a descriptor to turn the image_set into a m x n matrix
-    return training_data
+import os
 
 
 def default_progress_fn(i, total):
@@ -55,7 +33,7 @@ class KNN:
 
         # For each image, we will predict a label.
         # Therefore, we first create a zero array preparing to store the predicted label.
-        YPred = np.zeros(num_training, dtype = self.ty.dtype)
+        YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
 
         for i in range(num_training):
 
@@ -65,7 +43,8 @@ class KNN:
             distances = np.reshape(np.sqrt(np.sum(np.square(self.tX - X[i, :]), axis=1)), (-1, 1))
 
             # Along with the distance stack the labels so that we can vote easily
-                # Stack distances and according labels together
+                # Stack distances and corresponding labels together
+
             distance_label = np.hstack((distances, self.ty))
 
             # Simple majority voting based on the minimum distance
@@ -88,11 +67,22 @@ class KNN:
 
         return YPred
 
-training_data = np.zeros((1, 7))
+'''training_data = np.zeros((1, 7))
 img = cv2.imread("test/cardboard1.jpg")
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 hu = cv2.HuMoments(cv2.moments(img_gray)).flatten()
 training_data[0,:] = hu
 print(training_data)
+
+image_folder = os.listdir('./split-garbage-dataset/valid/paper/')
+print(image_folder)
+
+test = os.listdir('./split-garbage-dataset/test/')
+
+for folder in test:
+    pictures = os.listdir('./split-garbage-dataset/test/' + folder)
+    length = len(pictures)
+    np.zeros((length,1))'''
+
 
 
