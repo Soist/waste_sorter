@@ -20,16 +20,24 @@ def garbage_classifier(training_data_folder,  test_data_folder, k):
     training_labels = preprocessor.get_labels(training_data_folder)
 
     # stage 2: turn images into vectors and matrix that computer can manipulate
-    vectorized_training_data = descriptor.image_descriptor(training_data_folder)
-    vectorized_test_data = descriptor.image_descriptor(test_data_folder)
+    #vectorized_training_data = descriptor.Hu_descriptor(training_data_folder)
+    #vectorized_test_data = descriptor.Hu_descriptor(test_data_folder)
 
+    #vectorized_training_data = descriptor.ORB_descriptor(training_data_folder)
+    #vectorized_test_data = descriptor.ORB_descriptor(test_data_folder)
+
+    vectorized_training_data = descriptor.Hu_descriptor(training_data_folder)
+    vectorized_test_data = descriptor.Hu_descriptor(test_data_folder)
 
     # stage 3: using knn-algorithm to classify the test images
     knn_obj = knn.KNN(k)
 
     knn_obj.train(vectorized_training_data, training_labels)
 
-    predicted_labels = knn_obj.predict(vectorized_test_data)
+    #predicted_labels = knn_obj.predict_by_Euclidean(vectorized_test_data)
+    #predicted_labels = knn_obj.predict_by_Hamming(vectorized_test_data)
+    #predicted_labels = knn_obj.predict_by_Manhattan(vectorized_test_data)
+    predicted_labels = knn_obj.predict_by_Cosine(vectorized_test_data)
 
     print("   predict | actual")
     print('------------------------')
@@ -41,7 +49,10 @@ def garbage_classifier(training_data_folder,  test_data_folder, k):
     for num in range(0,431):
         if display[num,0] == display[num,1]:
             count = count + 1
-    print(count)
+    print("Accuracy of prediction:")
+    print(count/431)
+    print("Random:")
+    print(1/6)
 
     return predicted_labels
 

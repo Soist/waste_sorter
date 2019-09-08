@@ -23,7 +23,7 @@ class KNN:
         self.tX = X
         self.ty = y
 
-    def predict(self, X):
+    def predict_by_Euclidean(self, X):
 
         """
             Predict y based on test data X.
@@ -67,22 +67,152 @@ class KNN:
 
         return YPred
 
-'''training_data = np.zeros((1, 7))
-img = cv2.imread("test/cardboard1.jpg")
-img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-hu = cv2.HuMoments(cv2.moments(img_gray)).flatten()
-training_data[0,:] = hu
-print(training_data)
+    def predict_by_Manhattan(self, X):
 
-image_folder = os.listdir('./split-garbage-dataset/valid/paper/')
-print(image_folder)
+        """
+            Predict y based on test data X.
+        """
+        # num_training is the row of X, which is the number of training example
+        num_training = X.shape[0]
 
-test = os.listdir('./split-garbage-dataset/test/')
+        # For each image, we will predict a label.
+        # Therefore, we first create a zero array preparing to store the predicted label.
+        YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
 
-for folder in test:
-    pictures = os.listdir('./split-garbage-dataset/test/' + folder)
-    length = len(pictures)
-    np.zeros((length,1))'''
+        for i in range(num_training):
+
+            # Euclidean distance is used to find out distance between two datapoint.
+                # np.sum( , axis=1) means adding the data horizontally; axis=0 means adding vertically
+                # np.reshape means converting a horizontal array into a vertical one (no actual change)
+            distances = np.reshape(np.sum(self.tX - X[i, :], axis=1), (-1, 1))
+
+            # Along with the distance stack the labels so that we can vote easily
+                # Stack distances and corresponding labels together
+
+            distance_label = np.hstack((distances, self.ty))
+
+            # Simple majority voting based on the minimum distance
+                # argsort() returns a ndArray, which contains indexes of the distances from the smallest distance to the largest one
+                # sorted_distance is a ndArray containing the distances listed from the smallest to the largest
+            sorted_distance = distance_label[distance_label[:,0].argsort()]
+
+                # k_sorted_distance is a ndArray containing k nearest neighbours (distance + label)
+            k_sorted_distance = sorted_distance[:self.k,:]
+
+                # np.unique return the same label only once
+                # return_counts = True means counting the number of occurences for each label
+            (labels, occurence) = np.unique(k_sorted_distance[:, 1], return_counts=True)
+
+            # label equals to the type of label that occurs most frequently
+            label = labels[occurence.argsort()[-1]]
+            YPred[i] = label
+
+            self.progress_fn(i, num_training)
+
+        return YPred
+
+    def predict_by_Cosine(self, X):
+
+        """
+            Predict y based on test data X.
+        """
+        # num_training is the row of X, which is the number of training example
+        num_training = X.shape[0]
+
+        # For each image, we will predict a label.
+        # Therefore, we first create a zero array preparing to store the predicted label.
+        YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
+
+        for i in range(num_training):
+
+            # Euclidean distance is used to find out distance between two datapoint.
+                # np.sum( , axis=1) means adding the data horizontally; axis=0 means adding vertically
+                # np.reshape means converting a horizontal array into a vertical one (no actual change)
+
+            distances =    np.sum(self.tX * X[i,:],axis=1)  /  np.sum(( np.sqrt(np.sum(np.square(self.tX),axis=1)) * np.sqrt(np.sum(np.square(X[i,:]),axis=1))) )
+
+            # Along with the distance stack the labels so that we can vote easily
+                # Stack distances and corresponding labels together
+
+            distance_label = np.hstack((distances, self.ty))
+
+            # Simple majority voting based on the minimum distance
+                # argsort() returns a ndArray, which contains indexes of the distances from the smallest distance to the largest one
+                # sorted_distance is a ndArray containing the distances listed from the smallest to the largest
+            sorted_distance = distance_label[distance_label[:,0].argsort()]
+
+                # k_sorted_distance is a ndArray containing k nearest neighbours (distance + label)
+            k_sorted_distance = sorted_distance[:self.k,:]
+
+                # np.unique return the same label only once
+                # return_counts = True means counting the number of occurences for each label
+            (labels, occurence) = np.unique(k_sorted_distance[:, 1], return_counts=True)
+
+            # label equals to the type of label that occurs most frequently
+            label = labels[occurence.argsort()[-1]]
+            YPred[i] = label
+
+            self.progress_fn(i, num_training)
+
+        return YPred
+
+    def predict_by_Hamming(self, X):
+
+        bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+
+        """
+            Predict y based on test data X.
+        """
+        # num_training is the row of X, which is the number of training example
+        num_training = X.shape[0]
+
+        # For each image, we will predict a label.
+        # Therefore, we first create a zero array preparing to store the predicted label.
+        YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
+
+        for i in range(num_training):
+
+            # Euclidean distance is used to find out distance between two datapoint.
+                # np.sum( , axis=1) means adding the data horizontally; axis=0 means adding vertically
+                # np.reshape means converting a horizontal array into a vertical one (no actual change)
+            print(self.tX)
+            print(X[i, :])
+            (row, col) = self.tX.shape
+            des = np.zeros(self.ty,col)
+
+            for j in range(self.ty):
+                matches = bf.match(self.tX[j,:],X[i,:])
+                des[j,:] = matches
+
+            # Along with the distance stack the labels so that we can vote easily
+                # Stack distances and corresponding labels together
+
+            distance_label = np.hstack((des, self.ty))
+
+            # Simple majority voting based on the minimum distance
+                # argsort() returns a ndArray, which contains indexes of the distances from the smallest distance to the largest one
+                # sorted_distance is a ndArray containing the distances listed from the smallest to the largest
+            sorted_distance = distance_label[distance_label[:,0].argsort()]
+
+                # k_sorted_distance is a ndArray containing k nearest neighbours (distance + label)
+            k_sorted_distance = sorted_distance[:self.k,:]
+
+                # np.unique return the same label only once
+                # return_counts = True means counting the number of occurences for each label
+            (labels, occurence) = np.unique(k_sorted_distance[:, 1], return_counts=True)
+
+            # label equals to the type of label that occurs most frequently
+            label = labels[occurence.argsort()[-1]]
+            YPred[i] = label
+
+            self.progress_fn(i, num_training)
+
+        return YPred
+
+
+
+
+
 
 
 

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5fd5184-f5d1-45ab-9eff-cf01adfe96c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Activity2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Activity1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Garbage_Classification/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Garbage_Classification/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Garbage_Classification/descriptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Garbage_Classification/descriptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Garbage_Classification/garbage_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Garbage_Classification/garbage_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Garbage_Classification/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Garbage_Classification/knn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +24,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Milestone2_Step_Two.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="186">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Milestone4_Part_Two.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="82">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -458,10 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Milestone2_Step_Two.py">
+    <entry file="file://$PROJECT_DIR$/Milestone4_Part_Two.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="82">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -472,10 +472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Milestone4_Part_Two.py">
+    <entry file="file://$PROJECT_DIR$/Milestone2_Step_Two.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="186">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
