@@ -55,35 +55,33 @@ def ORB_descriptor(folder_name):
     folder_path = './split-garbage-dataset/' + folder_name + '/'
     sub_folders = os.listdir(folder_path)
     count = 0
-    orb = cv2.ORB_create(nfeatures=1);
-    for sub_folder_name in sub_folders:
+    orb = cv2.ORB_create(nfeatures=10)
 
+    training_data_format = np.array((0,320),dtype=int)
+    for sub_folder_name in sub_folders:
 
         sub_folder_path = folder_path + sub_folder_name + '/'
         pictures = os.listdir(sub_folder_path)
         m = len(pictures)
 
+        training_data = np.empty((0,32),dtype=int)
 
-        if(count != 0):
-            training_data = np.vstack( (training_data, np.zeros( (m, 32) ) ) )
-        else:
-            training_data = np.zeros((m,32))
-
-        count_copy = count
         for picture_name in pictures:
 
             picture_path = sub_folder_path + picture_name
             img = cv2.imread(picture_path)
 
             keypts, des = orb.detectAndCompute(img, None)
-            #print(type(des))
 
-            training_data[count_copy, :] = des
-            count_copy = count_copy + 1
-        count = count + m
+            if des.shape == (10,32):
+                training_data = np.append(training_data, des, axis=0)
+            else:
+                training_data = np.append(training_data,np.zeros((10,32),dtype=int),axis=0)
+
+        training_data_format = np.append(training_data_format,np.array((m,320),dtype=int))
+
 
         # TODO: using a descriptor to turn the image_set into a m x n matrix
     return training_data
-
 
 

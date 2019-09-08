@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dad638a-7b29-4067-a705-101a09444d64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Activity1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Activity3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/descriptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/garbage_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/garbage_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
@@ -19,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocessor.py">
+        <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="265">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -33,20 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/descriptor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="456">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -57,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+            <state relative-caret-position="191">
+              <caret line="114" column="37" lean-forward="true" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -75,6 +60,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print(&quot;train&quot;)</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -85,16 +75,16 @@
         <option value="$PROJECT_DIR$/Reorganize.py" />
         <option value="$PROJECT_DIR$/Interface/waste_sorter.py" />
         <option value="$PROJECT_DIR$/preprocessor.py" />
-        <option value="$PROJECT_DIR$/knn.py" />
-        <option value="$PROJECT_DIR$/garbage_classifier.py" />
         <option value="$PROJECT_DIR$/pseudo.py" />
+        <option value="$PROJECT_DIR$/garbage_classifier.py" />
         <option value="$PROJECT_DIR$/descriptor.py" />
+        <option value="$PROJECT_DIR$/knn.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1232" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,24 +105,6 @@
               <item name="Garbage_Classification" type="462c0819:PsiDirectoryNode" />
               <item name="split-garbage-dataset" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Garbage_Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Garbage_Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="split-garbage-dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Garbage_Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Garbage_Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="split-garbage-dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Garbage_Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Garbage_Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="split-garbage-dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="valid" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,8 +117,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/split-garbage-dataset" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Interface" />
     </key>
   </component>
@@ -162,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.descriptor">
+  <component name="RunManager" selected="Python.garbage_classifier">
     <configuration name="descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Garbage_Classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,8 +242,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.descriptor" />
         <item itemvalue="Python.garbage_classifier" />
+        <item itemvalue="Python.descriptor" />
         <item itemvalue="Python.knn" />
         <item itemvalue="Python.waste_sorter" />
         <item itemvalue="Python.preprocessor" />
@@ -292,15 +264,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17712471" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.17712471" />
+      <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.18414533" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15036497" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4712329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,47 +325,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/numpy/core/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pseudo.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="134">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pseudo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/descriptor.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/numpy/lib/function_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-15">
+          <caret line="4693" selection-start-line="4693" selection-end-line="4693" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1012129040/cv2/DescriptorMatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="162" column="8" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="18">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/numpy/core/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="339" selection-start-line="339" selection-end-line="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
+    <entry file="file://$PROJECT_DIR$/descriptor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="456">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -402,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+        <state relative-caret-position="191">
+          <caret line="114" column="37" lean-forward="true" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
