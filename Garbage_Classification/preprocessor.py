@@ -22,7 +22,7 @@ def get_labels(folder_name):
             flag = False
     return labels
 
-#print(get_labels('test'))
+
 
 
 

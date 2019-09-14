@@ -34,11 +34,13 @@ def Hu_descriptor(folder_name):
             img = cv2.imread(picture_path)
 
             img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
             img_canny = cv2.Canny(img_gray,50,270)
 
             hu = cv2.HuMoments(cv2.moments(img_canny)).flatten()
             training_data[count_copy, :] = hu
             count_copy = count_copy + 1
+
         count = count + m
 
         # TODO: using a descriptor to turn the image_set into a m x n matrix
@@ -54,17 +56,13 @@ def ORB_descriptor(folder_name):
 
     folder_path = './split-garbage-dataset/' + folder_name + '/'
     sub_folders = os.listdir(folder_path)
-    count = 0
     orb = cv2.ORB_create(nfeatures=10)
 
-    training_data_format = np.array((0,320),dtype=int)
+    all_training_data =  np.empty((0,320),dtype=int)
     for sub_folder_name in sub_folders:
 
         sub_folder_path = folder_path + sub_folder_name + '/'
         pictures = os.listdir(sub_folder_path)
-        m = len(pictures)
-
-        training_data = np.empty((0,32),dtype=int)
 
         for picture_name in pictures:
 
@@ -73,15 +71,19 @@ def ORB_descriptor(folder_name):
 
             keypts, des = orb.detectAndCompute(img, None)
 
-            if des.shape == (10,32):
-                training_data = np.append(training_data, des, axis=0)
+            if des is not None:
+                if des.shape == (10,32):
+                    training_data = des.reshape(1,320)
+                    all_training_data = np.append(all_training_data, training_data, axis=0)
+                else:
+                    training_data = np.zeros((1,320),dtype=int)
+                    all_training_data = np.append(all_training_data,training_data,axis=0)
             else:
-                training_data = np.append(training_data,np.zeros((10,32),dtype=int),axis=0)
-
-        training_data_format = np.append(training_data_format,np.array((m,320),dtype=int))
+                training_data = np.zeros((1, 320), dtype=int)
+                all_training_data = np.append(all_training_data, training_data, axis=0)
 
 
         # TODO: using a descriptor to turn the image_set into a m x n matrix
-    return training_data
+    return all_training_data
 
 

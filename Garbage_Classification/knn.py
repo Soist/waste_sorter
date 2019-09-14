@@ -82,10 +82,9 @@ class KNN:
         for i in range(num_training):
 
             distances = np.reshape(np.sum(self.tX - X[i, :], axis=1), (-1, 1))
-            print("dis shape")
-            print(distances.shape)
-            print(self.ty.shape)
+
             distance_label = np.hstack((distances, self.ty))
+
 
             sorted_distance = distance_label[distance_label[:,0].argsort()]
 
@@ -108,10 +107,16 @@ class KNN:
 
         YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
 
+
+
         for i in range(num_training):
+            distances = np.empty((0, 1), dtype=int)
 
-            distances =    np.sum(self.tX * X[i,:],axis=1)  /  np.sum(( np.sqrt(np.sum(np.square(self.tX),axis=1)) * np.sqrt(np.sum(np.square(X[i,:]),axis=1))) )
+            for j in range(self.tX.shape[0]):
+                distance = np.zeros((1, 1), dtype=int)
+                distance[0] = np.dot(self.tX[j,:], X[i,:]) /(np.sqrt(np.dot(self.tX[j,:],self.tX[j,:])) * np.sqrt(np.dot(X[i,:], X[i,:])))
 
+                distances = np.append(distances, distance, axis=0)
             distance_label = np.hstack((distances, self.ty))
 
             sorted_distance = distance_label[distance_label[:,0].argsort()]
@@ -145,7 +150,7 @@ class KNN:
 
             for j in range(row):
 
-                matches = bf.match(self.tX[j,:], X[i,:])
+                matches = bf.match(self.tX[j], X)
                 des[j,:] = matches
 
 
