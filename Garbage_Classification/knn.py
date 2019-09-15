@@ -148,9 +148,11 @@ class KNN:
             (row, col) = self.tX.shape
             des = np.zeros((row,col))
 
-            for j in range(row):
+            for j in range(0,row):
+                #print(self.tX[j].shape)
+                #print(X[i].shape)
 
-                matches = bf.match(self.tX[j], X)
+                matches = bf.match(self.tX[j], X[i])
                 des[j,:] = matches
 
 

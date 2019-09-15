@@ -23,36 +23,34 @@ def garbage_classifier(training_data_folder,  test_data_folder, k):
 
     knn_obj.train(vectorized_training_data, training_labels)
 
+    # MANHATTAN
+    #predicted_labels = knn_obj.predict_by_Manhattan(vectorized_test_data)
+
     # EUCLIDEAN
     #predicted_labels = knn_obj.predict_by_Euclidean(vectorized_test_data)
+
+    # COSINE
+    predicted_labels = knn_obj.predict_by_Cosine(vectorized_test_data)
 
     # HAMMING
     #predicted_labels = knn_obj.predict_by_Hamming(vectorized_test_data)
 
-    # MANHATTAN
-    predicted_labels = knn_obj.predict_by_Manhattan(vectorized_test_data)
-
-    # COSINE
-    #predicted_labels = knn_obj.predict_by_Cosine(vectorized_test_data)
-
-    print("   predict | actual")
-    print('------------------------')
+    #print("   predict | actual")
+    #print('------------------------')
     display = np.hstack((predicted_labels, preprocessor.get_labels(test_data_folder)))
-    print(display)
-    print(display.shape)
+    #print(display)
+    #print(display.shape)
     count = 0
 
     for num in range(0,431):
         if display[num,0] == display[num,1]:
             count = count + 1
-    print(count)
+    #print(count)
     print("Accuracy of prediction:")
     print(count/431)
-    print("Random:")
-    print(1/6)
 
     return predicted_labels
 
 
-garbage_classifier('train', 'test',10)
+garbage_classifier('train', 'test',80)
 

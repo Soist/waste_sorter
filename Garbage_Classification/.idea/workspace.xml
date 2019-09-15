@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dad638a-7b29-4067-a705-101a09444d64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/descriptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/garbage_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/garbage_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-test/cardboard/cardboard1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-test/cardboard/cardboard2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-test/cardboard/cardboard3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-train/cardboard/cardboard10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-train/cardboard/cardboard11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/pre-train/cardboard/cardboard12.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/descriptor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="83" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="83" />
+            <state relative-caret-position="640">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -47,10 +29,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/descriptor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="160" column="42" lean-forward="true" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+            <state relative-caret-position="179">
+              <caret line="158" column="54" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="54" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -61,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="320">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -94,16 +88,16 @@
         <option value="$PROJECT_DIR$/Reorganize.py" />
         <option value="$PROJECT_DIR$/Interface/waste_sorter.py" />
         <option value="$PROJECT_DIR$/pseudo.py" />
-        <option value="$PROJECT_DIR$/preprocessor.py" />
-        <option value="$PROJECT_DIR$/descriptor.py" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/garbage_classifier.py" />
+        <option value="$PROJECT_DIR$/preprocessor.py" />
+        <option value="$PROJECT_DIR$/descriptor.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="340" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.garbage_classifier">
+  <component name="RunManager" selected="Python.descriptor">
     <configuration name="descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Garbage_Classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,9 +256,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.garbage_classifier" />
-        <item itemvalue="Python.preprocessor" />
         <item itemvalue="Python.descriptor" />
+        <item itemvalue="Python.preprocessor" />
+        <item itemvalue="Python.garbage_classifier" />
         <item itemvalue="Python.knn" />
         <item itemvalue="Python.waste_sorter" />
       </list>
@@ -284,15 +278,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="340" height="777" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" weight="0.17712471" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.69905955" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.18414533" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3240876" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95620435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +299,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.17712471" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" weight="0.17712471" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.18414533" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,10 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/descriptor.py">
+    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="83" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="83" />
+        <state relative-caret-position="640">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -405,18 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="320">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -425,10 +408,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="160" column="42" lean-forward="true" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
+        <state relative-caret-position="179">
+          <caret line="158" column="54" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="54" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

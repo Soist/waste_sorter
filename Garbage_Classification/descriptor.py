@@ -53,6 +53,7 @@ def ORB_descriptor(folder_name):
 #:param descriptor: the descriptor used to describe images
 #:param image_set: the preprocessed the image_set to be described
 #:return: a m x n matrix representing m images by n-dimensional vectors
+    count = 0
 
     folder_path = './split-garbage-dataset/' + folder_name + '/'
     sub_folders = os.listdir(folder_path)
@@ -66,6 +67,7 @@ def ORB_descriptor(folder_name):
 
         for picture_name in pictures:
 
+
             picture_path = sub_folder_path + picture_name
             img = cv2.imread(picture_path)
 
@@ -76,14 +78,21 @@ def ORB_descriptor(folder_name):
                     training_data = des.reshape(1,320)
                     all_training_data = np.append(all_training_data, training_data, axis=0)
                 else:
-                    training_data = np.zeros((1,320),dtype=int)
-                    all_training_data = np.append(all_training_data,training_data,axis=0)
+                    print(picture_name)
+                    count = count + 1
+                    #training_data = np.zeros((1,320),dtype=int)
+                    #all_training_data = np.append(all_training_data,training_data,axis=0)
             else:
                 training_data = np.zeros((1, 320), dtype=int)
                 all_training_data = np.append(all_training_data, training_data, axis=0)
 
-
+    print(count)
         # TODO: using a descriptor to turn the image_set into a m x n matrix
     return all_training_data
 
-
+ORB_descriptor("train")
+'''img = cv2.imread("split-garbage-dataset/ORBtest/cardboard/cardboard8.jpg")
+print(img)
+cv2.imshow("hi",img)
+cv2.waitKey()
+'''

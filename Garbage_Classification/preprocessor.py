@@ -13,17 +13,21 @@ def get_labels(folder_name):
         pictures = os.listdir(sub_folder_path)
         m = len(pictures)
 
-        for num in range(0, m):
+        for picture_name in pictures:
             if flag is True:
-                labels = np.array([[sub_folder_name]])
+                labels = np.array([[picture_name]])
             else:
-                labels = np.append(labels,[[sub_folder_name]], axis=0)
+                labels = np.append(labels,[[picture_name]], axis=0)
 
             flag = False
+
+
+
+
     return labels
 
 
-
+print(get_labels("train"))
 
 
 
