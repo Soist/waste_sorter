@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import os
+from scipy.spatial import distance
 
 
 def default_progress_fn(i, total):
@@ -137,23 +138,20 @@ class KNN:
 
     def predict_by_Hamming(self, X):
 
-        bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+        #bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
 
         num_training = X.shape[0]
 
         YPred = np.zeros((num_training,1), dtype = self.ty.dtype)
 
         for i in range(num_training):
-
-            (row, col) = self.tX.shape
+            (row, col) = self.ty.shape
             des = np.zeros((row,col))
 
             for j in range(0,row):
-                #print(self.tX[j].shape)
-                #print(X[i].shape)
 
-                matches = bf.match(self.tX[j], X[i])
-                des[j,:] = matches
+                matches = distance.hamming(self.tX[j],X[i])
+                des[j] = matches
 
 
             distance_label = np.hstack((des, self.ty))
@@ -163,6 +161,7 @@ class KNN:
             k_sorted_distance = sorted_distance[:self.k,:]
 
             (labels, occurence) = np.unique(k_sorted_distance[:, 1], return_counts=True)
+
 
             label = labels[occurence.argsort()[-1]]
             YPred[i] = label

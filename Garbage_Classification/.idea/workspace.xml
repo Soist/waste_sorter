@@ -2,11 +2,427 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dad638a-7b29-4067-a705-101a09444d64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Activity2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/descriptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/garbage_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/garbage_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knn.py" beforeDir="false" afterPath="$PROJECT_DIR$/knn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard208.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard216.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard218.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard259.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard274.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard286.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard289.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard313.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard321.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard332.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard372.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard384.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard397.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass218.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass267.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass278.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass287.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass293.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass297.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass306.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass310.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass323.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass338.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass365.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass382.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass415.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass427.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass429.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass439.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass472.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass479.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass486.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass493.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /glass/glass91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal246.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal247.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal248.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal261.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal263.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal275.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal292.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal296.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal324.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal325.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal341.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal364.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal370.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal394.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal395.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal403.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /metal/metal99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper208.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper218.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper219.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper225.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper235.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper271.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper273.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper279.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper286.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper289.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper294.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper301.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper303.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper311.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper319.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper356.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper357.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper361.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper373.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper380.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper381.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper385.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper392.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper396.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper404.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper416.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper417.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper450.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper457.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper460.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper461.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper462.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper474.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper495.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper502.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper508.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper527.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper534.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper537.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper541.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper543.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper547.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper548.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper557.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper558.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper563.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper569.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper570.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper576.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper586.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper593.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /paper/paper97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic205.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic207.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic214.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic227.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic242.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic251.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic252.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic253.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic264.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic285.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic305.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic306.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic314.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic315.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic349.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic372.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic374.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic390.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic399.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic405.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic411.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic423.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic465.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /plastic/plastic99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/split-garbage-dataset/ORBtest /trash/trash94.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +432,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="326">
+              <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -28,11 +444,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/descriptor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -43,8 +459,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="158" column="54" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="54" />
+            <state relative-caret-position="344">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -55,8 +471,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -88,16 +504,16 @@
         <option value="$PROJECT_DIR$/Reorganize.py" />
         <option value="$PROJECT_DIR$/Interface/waste_sorter.py" />
         <option value="$PROJECT_DIR$/pseudo.py" />
+        <option value="$PROJECT_DIR$/descriptor.py" />
+        <option value="$PROJECT_DIR$/preprocessor.py" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/garbage_classifier.py" />
-        <option value="$PROJECT_DIR$/preprocessor.py" />
-        <option value="$PROJECT_DIR$/descriptor.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
-    <option name="width" value="340" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,7 +522,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,6 +538,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.descriptor">
+  <component name="RunManager" selected="Python.garbage_classifier">
     <configuration name="descriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Garbage_Classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,9 +672,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.descriptor" />
-        <item itemvalue="Python.preprocessor" />
         <item itemvalue="Python.garbage_classifier" />
+        <item itemvalue="Python.preprocessor" />
+        <item itemvalue="Python.descriptor" />
         <item itemvalue="Python.knn" />
         <item itemvalue="Python.waste_sorter" />
       </list>
@@ -278,14 +694,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="340" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.69905955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.17712471" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.18414533" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.95620435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29781023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,46 +803,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocessor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="158" column="54" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/split-garbage-dataset/ORBtest /cardboard/cardboard9.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/descriptor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garbage_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

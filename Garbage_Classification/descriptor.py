@@ -76,6 +76,7 @@ def ORB_descriptor(folder_name):
             if des is not None:
                 if des.shape == (10,32):
                     training_data = des.reshape(1,320)
+                    #print(des)
                     all_training_data = np.append(all_training_data, training_data, axis=0)
                 else:
                     print(picture_name)
@@ -86,11 +87,11 @@ def ORB_descriptor(folder_name):
                 training_data = np.zeros((1, 320), dtype=int)
                 all_training_data = np.append(all_training_data, training_data, axis=0)
 
-    print(count)
+    #print(count)
         # TODO: using a descriptor to turn the image_set into a m x n matrix
     return all_training_data
 
-ORB_descriptor("train")
+ORB_descriptor("ORBtest")
 '''img = cv2.imread("split-garbage-dataset/ORBtest/cardboard/cardboard8.jpg")
 print(img)
 cv2.imshow("hi",img)

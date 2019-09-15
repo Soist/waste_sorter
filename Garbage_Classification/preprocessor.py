@@ -6,6 +6,7 @@ def get_labels(folder_name):
     folder_path = './split-garbage-dataset/' + folder_name + '/'
     sub_folders = os.listdir(folder_path)
     flag = True
+    count = 0
 
     for sub_folder_name in sub_folders:
 
@@ -15,19 +16,16 @@ def get_labels(folder_name):
 
         for picture_name in pictures:
             if flag is True:
-                labels = np.array([[picture_name]])
+                labels = np.array([[sub_folder_name]])
             else:
-                labels = np.append(labels,[[picture_name]], axis=0)
+                labels = np.append(labels,[[sub_folder_name]], axis=0)
 
             flag = False
-
-
-
-
+            count = count + 1
     return labels
 
 
-print(get_labels("train"))
+#print(get_labels("ORBtest"))
 
 
 

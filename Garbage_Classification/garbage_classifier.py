@@ -42,15 +42,16 @@ def garbage_classifier(training_data_folder,  test_data_folder, k):
     #print(display.shape)
     count = 0
 
-    for num in range(0,431):
+
+    for num in range(0,417):
         if display[num,0] == display[num,1]:
             count = count + 1
     #print(count)
     print("Accuracy of prediction:")
-    print(count/431)
+    print(count/417)
+
 
     return predicted_labels
 
 
-garbage_classifier('train', 'test',80)
-
+garbage_classifier('ORBtrain', 'ORBtest',10)
